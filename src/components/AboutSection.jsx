@@ -16,7 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-            With a strong foundation in frontend development and a growing expertise in JavaScript full stack (MERN/MEAN), I craft responsive, user-friendly web applications that are both functional and visually engaging. 
+            With a strong foundation in frontend development and a growing expertise in JavaScript full stack technologies (MERN/MEAN), I craft responsive, user-friendly web applications that are both functional and visually engaging. 
             </p>
 
             <p className="text-muted-foreground">
@@ -47,7 +47,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                  Expert in <b className="highlight_skills"> Frontend Development</b>, proficient in <b className="highlight_skills">Javascript Full Stack (MERN)/(MEAN)</b>, and capable of creating responsive <b className="highlight_skills">WordPress websites</b>.
+                  Expert in <b className="highlight_skills"> Frontend Development</b>, proficient in <b className="highlight_skills">Javascript Full Stack Technologies</b>, and capable of creating responsive <b className="highlight_skills">WordPress websites</b>.
                   </p>
                 </div>
               </div>
