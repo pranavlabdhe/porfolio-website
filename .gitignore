@@ -40,4 +40,4 @@ ehthumbs.db
 Desktop.ini
 
 # Optional: ignore public uploads (e.g., CVs, assets if large)
-public/uploads/*
+# public/uploads/*
