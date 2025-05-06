@@ -30,6 +30,8 @@ const skills = [
   { name: "SEO - Search Engine Optimization", level: 90, category: "Digital-Marketing" },
   { name: "SEM - Search Engine Marketing ", level: 70, category: "Digital-Marketing" },
   { name: "SMM - Social Media Marketing", level: 65, category: "Digital-Marketing" },
+  { name: "WordPress", level: 90, category: "Digital-Marketing" },
+  
 ];
 
 const categories = ["All", "Frontend", "Backend","Digital-Marketing" ,"Tools"];

@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Medium Blog Post",
-    description: "he application also features an admin dashboard for managing blog content. Built with React, Redux, Firebase, and ChatGPT APIs.",
+    description: "The application allows users to write and publish their own blogs it also features an admin dashboard for managing blog content. Built with React, Redux, Firebase, and ChatGPT API.",
     image: "/projects/project1.png",
     tags: ["HTML/CSS", "Javadcript","React","Redux", "Node.js", "Express.js", "Mongo", "Firebase","ChatGPT API","Render"],
     demoUrl: "https://medium-blog-post.onrender.com/",
@@ -22,14 +22,24 @@ const projects = [
   },
   {
     id: 3,
-    title: "Meeting Scheduler App",
+    title: "Schedulo App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Schedulo is your smart desktop task planner that helps you block time, manage daily priorities, and stay focused. Easily add, update, or delete tasks with custom statuses like To-Do, In-Progress, or Done. With built-in calendar blocking and time-slot scheduling, Schedulo turns your cluttered day into a clear plan — one task at a time.",
     image: "/projects/project3.png",
     tags: ["HTML/CSS", "Typescript", "Angular", "Vercel"],
     demoUrl: "#",
     githubUrl: "#",
   },
+  // {
+  //   id: 4,
+  //   title: "Schedulo App",
+  //   description:
+  //     "Schedulo is your smart desktop task planner that helps you block time, manage daily priorities, and stay focused. Easily add, update, or delete tasks with custom statuses like To-Do, In-Progress, or Done. With built-in calendar blocking and time-slot scheduling, Schedulo turns your cluttered day into a clear plan — one task at a time.",
+  //   image: "/projects/project3.png",
+  //   tags: ["HTML/CSS", "Typescript", "Angular", "Vercel"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
@@ -46,11 +56,11 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="w-full md:w-[48%] lg:w-[30%] bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
                 <img
