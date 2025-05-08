@@ -146,7 +146,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Task Schedular",
+    title: "Task Scheduler",
     description:
       "A task scheduling desktop app for focused work. Manage tasks by blocking calendar time and track statuses with a simple UI.",
     image: "/projects/project3.png",
